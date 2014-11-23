@@ -8,46 +8,46 @@
 
 import Foundation
 
-public class Todo {
+class Todo {
     var remarks: [String]
     
-    public init() {
+    init() {
         remarks = []
     }
     
-    public func length() -> Int {
+    func length() -> Int {
         return remarks.count;
     }
-    
-    public func add(remark: String) -> Void {
+
+    func add(remark: String) -> Void {
         remarks.append(remark)
     }
     
-    public func first() -> String? {
+    func first() -> String? {
         return remarks.first
     }
     
-    public func last() -> String? {
+    func last() -> String? {
         return remarks.last
     }
     
-    public func removeFirst() -> String? {
+    func removeFirst() -> String? {
         return remarks.count > 0 ? remarks.removeAtIndex(0) : nil
     }
     
-    public func removeLast() -> String? {
+    func removeLast() -> String? {
         return remarks.count > 0 ? remarks.removeLast() : nil
     }
     
-    public func all() -> [String] {
+    func all() -> [String] {
         return remarks
     }
     
-    public func removeAll() -> Void {
+    func removeAll() -> Void {
         remarks.removeAll(keepCapacity: false)
     }
     
-    public func replacePosition(index1: UInt, index2: UInt) {
+    func replacePosition(index1: UInt, index2: UInt) {
         let index1 = Int(index1)
         let index2 = Int(index2)
         if remarks.count <= index1 || remarks.count <= index2 {

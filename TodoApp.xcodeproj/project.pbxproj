@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D0460BF1A20801000350613 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11052911A204AC300C56A7E /* Todo.swift */; };
 		D11052721A20487A00C56A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11052711A20487A00C56A7E /* AppDelegate.swift */; };
 		D11052741A20487A00C56A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11052731A20487A00C56A7E /* ViewController.swift */; };
 		D11052771A20487A00C56A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11052751A20487A00C56A7E /* Main.storyboard */; };
@@ -236,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0460BF1A20801000350613 /* Todo.swift in Sources */,
 				D11052881A20487A00C56A7E /* TodoAppTests.swift in Sources */,
 				D11052961A205B0A00C56A7E /* TodoEmptyTests.swift in Sources */,
 				D11052981A205C2200C56A7E /* TodoMultipleItemsTests.swift in Sources */,
